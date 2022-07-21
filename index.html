@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Loja Virtual</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/55cea939a8.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="home">
+
+    <div id="container"><!-- INICIO CONTAINER -->
+        <div class="area-cabecalho">
+            <h1> Bem vindo a LOJAS BIZZI!</h1>
+            <h2> Aqui temos sempre o melhor para você!</h2>
+            
+        </div><hr>
+            <div id="conteudo">
+                <img src="pc.png" class="img-produto" alt="">
+                <ul class="descricao">
+                    <li class="titulo">Notebook Inspiron 15</li>
+                    <li class="avaliacao"><i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i> 4.5 (323) </li>
+                        <li class="desc"><i class="fas fa-laptop"></i>Intel® Core™ i5-1135G7 (2.4GHz até 4.2 GHz, cache de 8MB, quad-core, 11ª geração)</li>
+                        <li class="desc"><i class="fab fa-windows"></i>Windows 10 Home Single Language, de 64 bits</li>
+                        <li class="desc"><i class="fas fa-gamepad">Placa de vídeo integrada Intel® Iris® Xe Graphics com memória gráfica</i></li>
+                        <li class="desc"><i class="fas fa-memory"></i>Memória de 8GB (2x4GB), DDR4, 3200MHz; Expansível até 32GB </li>
+                        <li class="desc"><i class="fas fa-hdd">SSD de 256GB PCIe NVMe M.2</i></li>
+                        <li class="desc"><i class="fas fa-palette"></i>Prata</li>
+                        <li>Preço: <b>R$5298,00</b></li>
+                </ul>
+                <form action="parcelamento.php" method="POST" class="form">
+                    
+                    <p>Quantidade de parcelas:</p>
+                    <select id="qtdeparcelas" name="qtdeparcelas">
+                        <option value="1">1x de R$5.298,00 sem juros</option>
+                        <option value="2">2x de R$2.649,00 sem juros </option>
+                        <option value="3">3x de R$1.766,00 sem juros</option>
+                        <option value="4">4x de R$1.324,50 sem juros</option>
+                        <option value="5">5x de R$1.059,60 sem juros</option>
+                        <option value="6">6x de R$883,00 sem juros</option>
+                        <option value="7">7x de R$756,85 sem juros</option>
+                        <option value="8">8x de R$662,25 sem juros</option>
+                        <option value="9">9x de R$588,66 sem juros</option>
+                        <option value="10">10x de R$529,80 sem juros</option>
+                        <option value="11">11x de R$481,63 com juros de 2.29%a.m</option>
+                        <option value="12">12x de R$441,50 com juros de 2.29%a.m </option>
+                      </select><br>
+                      <input type="submit" name="comprar" id="comprar" value="Comprar" href="parcelamento.php"><br>
+                </form>
+
+            </div>
+            
+        
+            
+            <div id="rodape"><!-- COMECO RODAPE -->
+                    <h3>Acesse nossas redes sociais!</h3>
+                    <i class="fab fa-instagram"> @LojasBizzi</i>
+                    <i class="fab fa-facebook-square"> @LojasBizzi</i>
+                    <i class="fab fa-twitter"> @LojasBizzi</i>
+            </div><!-- FIM RODAPE -->
+
+
+    </div> <!-- FIM CONTAINER -->
+    </body>
+</html>

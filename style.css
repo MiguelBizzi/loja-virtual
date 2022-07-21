@@ -1,0 +1,86 @@
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css";
+/* ESTRUTURA DO SITE */
+* {
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color: #f3f3f3;
+}
+/* CABECALHO */
+
+.area-cabecalho {
+    text-align: center;
+    clear: both;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.area-cabecalho h1 {
+    color: #3a3939;
+    font-size: 50px;
+}
+
+.area-cabecalho h2 {
+    color: #535252;
+    font-size: 25px;
+}
+
+hr {
+    margin: 10px;
+}
+/* CONTEUDO DO SITE*/
+
+#conteudo ul {
+    float: left;
+    margin-top: 80px;
+    padding: 20px;
+    list-style: none;
+}
+
+#conteudo ul li {
+    padding: 10px;
+}
+
+.desc {
+    color: rgb(54, 54, 54);
+}
+
+.avaliacao {
+    color: #2d86af;
+}
+
+.titulo {
+    font-size: 30px;
+    color: black;
+
+}
+
+.img-produto {
+    float: left;
+    margin-left: 16%;
+    margin-top: 30px;
+    padding: 10px;
+}
+/* FORM */ 
+form {
+    clear: both;
+    margin-left: 47.5%;
+}
+
+form input {
+    padding: 15px;
+    width: 200px;
+    background-color: rgb(93, 236, 124);
+    color: white ;
+    margin: 10px 10px 150px 0px;
+}
+
+/* RODAPÉ */
+#rodape {
+	text-align: center;
+	bottom: 0;
+	clear: both;
+}
